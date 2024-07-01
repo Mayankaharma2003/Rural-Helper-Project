@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Feb, 2023, 1:08:35 PM
+    Author     : ashug
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+#MainImg
+{
+    
+    opacity: 90%;
+    height: 50vh;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MainImg a :hover
+{
+    color: beige;
+}
+#MainImg h1{
+
+    text-shadow: 1px 6px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#Regis
+{
+
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(265.88deg, #00F8BC 4.22%, rgba(86, 235, 200, 0.1) 41.99%, #ffffff 96.92%);
+}
+#RegisForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-weight: bold;
+    
+
+}
+#RegisForm table
+{
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+#RegisForm input
+{
+    font-style: unset;
+    border-style: double;
+    width: 300px;
+    font-size: large;
+    padding: 1vh;
+    border:0%;
+    border-radius: 30px;
+}
